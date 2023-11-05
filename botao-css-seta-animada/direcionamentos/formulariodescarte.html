@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="formularioDescarte.css">
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>ProjetoIntegrador</title> 
+    <div class="campo">
+        <h1 id="Titulo">Projeto Integrador (Sustentabilidade) Descarte   
+        </h1>
+        <div>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+</style>
+
+<body>
+        
+<form>
+<fieldset class="Grupo">
+    <div class="campo">
+      <label for="nome"><strong>Nome de quem vai descartar</strong></label>  
+      <input type="text", name="nome" id="nome" required>
+    </div>
+
+    <div class="campo">
+        <label for="sobrenome"><strong>Sobrenome de quem vai descartar</strong></label>
+        <input type="text" name="sobrenome" id="sobrenome" required>
+    </div>
+ </fieldset>    
+ 
+ </div>
+ <div class="campo">
+    <label for="Telefone"><strong>Telefone</strong></label>
+    <input type="telefone" name="telefone" id="telefone" required>
+ </div>
+ <fieldset class="Grupo">
+    <div class="campo">
+      <label for="nome"><strong>Endereço</strong></label>  
+      <input type="text", name="endereço" id="endereço" required placeholder="Rua">
+      <input type="text", name="endereço" id="endereço" required placeholder="Logradouro">
+      <input type="text", name="endereço" id="endereço" required placeholder="Bairro">
+      <input type="text", name="endereço" id="endereço" required placeholder="Cidade/UF">
+      <input type="text", name="endereço" id="endereço" required placeholder="CEP">
+      
+    </div>
+
+ <div class="campo">
+    <label for="resideo"><strong></strong>Qual resideo você deseja que seja coletado?</label>
+    <input type="radio" name="Construcao_civil" value="contruc-civil" checked>Construção Civil
+    <br>
+    <input type="radio" name="Oleo" value="oleo">Óleo Mêcanico
+    <br>
+    <input type="radio" name="domiciliar" value="domiciliar">Domiciliares
+    <br>
+    <input type="radio" name="LimpezaUrbana" value="LimpezaUrbana">Limpeza Urbana
+    <br>
+    <input type="radio" name="sold_urb" value="solid_urb">Sólido urbano
+    <br>
+    <input type="radio" name="ECPS" value="ECPS">Estabelecimentos comerciais e prestadores de serviçoes
+    <br>
+    <input type="radio" name="SPSB" value="SPSB">Serviços Públicos de Saneamento Básico
+    <br>
+    <input type="radio" name="industriais" value="industriais">Industriais
+    <br>
+    <input type="radio" name="servicos_saude" value="servico_saude">Serviços de Saúde
+ </div>
+ <div class="campo">
+    <label for="profissao"><strong>Qual é a sua profissão?</strong></label>
+    <select id="profissao">
+        <option selected disabled value="">Selecione</option>
+        <option>Diretor</option>
+        <option>Estoquista</option>
+        <option>Serviços Gerais</option>
+        <option>Autonomo</option>
+        <option>Auxiliar Administrativo</option>
+    </select>
+ </div>
+ <fieldset class="Grupo">
+    <div id="check">
+        <label for="diassemanas"><strong>Selecione os dias disponìveis da semana para retirada do material:</strong>
+        <label>
+        <input type="checkbox" id="dias1" name="dias1" value="SegundaaSexta">
+        <label for="dia1">Segunda à Sexta</label>
+        <br>
+        <input type="checkbox" id="dias2" value="dias2">
+        <label for="dia2">Segunda à Sabado</label>
+        <br>
+        <input type="checkbox" id="dias3" value="dias3">
+        <label for="dias3">Domingos e Feriados</label>
+        <br>
+        <input type="checkbox" id="dias4" value="dias4">
+        <label for="dias4">Nenhum</label>
+    </div>
+ </fieldset>
+ <div class="campo">
+    <br>
+    <label for="Obs"><strong>Observações:</strong></label>
+    <textarea row="6" style="width: 26em" id="observações" name="observacoes"></textarea>
+ </div>
+ <a href=""> <input type="button" value="Enviar">
+    
+</a>
+
+</form>
+
+</body>
+</html>

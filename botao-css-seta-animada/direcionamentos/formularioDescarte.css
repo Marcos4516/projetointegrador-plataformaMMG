@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Titulo{
+  font-family: sans-serif;
+  color: #429d79; 
+  margin-left: 7%;
+}
+
+#Subtitulo {
+ font-family: sans-serif;
+ color: #429d79;
+ margin-left: 10%;
+}
+fieldset {
+    border:0;
+}
+body {
+    background-image: url('capa-blog-sustentabilidade.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o corpo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+}
+.campo {
+    width: 300px; /* Largura do card, ajuste conforme necessário */
+    padding: 20px; /* Espaçamento interno do card */
+    border: 1px solid #3bd2c6; /* Borda do card */
+    border-radius: 10px; /* Arredonda as bordas do card */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra do card */
+    background-color: #d3f2cc; /* Cor de fundo do card */
+    margin: 0 auto; /* Centraliza o card na página horizontalmente */
+    margin-top: 20px; /* Espaçamento superior para separar do topo da página */
+}
+body{
+background-color: #f0f8ff;
+font-family: sans-serif;
+font-size: 1em;
+color: #429d79;
+margin-left: 36%;
+margin-top: 2%;
+justify-content: center;
+
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+
+}
+.campo {
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #353635;
+    display: block;
+}
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #429d79;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background:#E0E0F8;
+}
+.botao {
+    font-size: 1.2em;
+    background: #429d79;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+    }
+
+    .botao:hover{
+        background: #429d79;
+        box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+        text-shadow: none;
+    }
+    #check {
+        display: inline-block;
+    }
+    
